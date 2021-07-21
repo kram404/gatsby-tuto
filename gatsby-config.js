@@ -5,6 +5,18 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+   siteMetadata: {
+      title: "Klaabu kuul",
+      description: "gatsby jumborull",
+      author: "Boo"
+   },
+   plugins: ["gatsby-plugin-sass",
+             "gatsby-transformer-remark",
+              {
+      resolve: "gatsby-source-filesystem",
+      options: {
+         name: "src",
+         path: `${__dirname}/src/`,
+      },
+   }, ],
 }

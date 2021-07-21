@@ -1,0 +1,5 @@
+{
+  "eslint.opts.disable" : false,
+  "workspace.preview_type" : "custom",
+  "workspace.preview_url" : "http:\/\/localhost:8000"
+}
