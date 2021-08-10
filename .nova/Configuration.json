@@ -1,5 +1,14 @@
 {
   "eslint.opts.disable" : false,
+  "todo.workspace-ignore-extensions" : [
+
+  ],
+  "todo.workspace-ignore-names" : [
+
+  ],
+  "todo.workspace-ignore-paths" : [
+
+  ],
   "workspace.preview_type" : "custom",
   "workspace.preview_url" : "http:\/\/localhost:8000"
 }
